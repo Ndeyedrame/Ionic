@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CONNEXION</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    
+</head>
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="primary">
+                <ion-title>CONNEXION</ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-gird>
+                <ion-row>
+                    <ion-col size-md="6" offset-md="3" >
+                        <ion-card>
+                            <ion-card-header>
+                                <ion-card-title>Veuillez saisir vos coordonnées</ion-card-title>
+                            </ion-card-header>
+                        <ion-card-content>
+                            <ion-item>
+                                <ion-label position="floating">EMAIL</ion-label>
+                                <ion-input type="text"></ion-input>
+                            </ion-item>
+                            <ion-item>
+                                <ion-label position="floating">MOT DE PASSE</ion-label>
+                                <ion-input type="text"></ion-input>
+                            </ion-item>
+                            <div >
+                                <ion-button fill="outline" color="danger">
+                                    <ion-icon slot="start" name="pencil-outline"></ion-icon>se connecter</ion-button>
+                                <ion-button >
+                                    <ion-icon slot="start" name="wifi-outline"></ion-icon>s'inscrire</ion-button>
+                            </div>
+                        </ion-card-content>
+                    </ion-card>
+                    </ion-col>
+                </ion-row>
+            </ion-gird>
+        
+    </ion-content>
+</ion-app>
+
+</body>
+</html>
